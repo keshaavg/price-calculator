@@ -51,7 +51,7 @@ namespace PriceCalculator.Tests
             var sut = new ShoppingCart(LoadData.Discounts);
 
             // Act
-            sut.AddProduct(new Product("Apples", 1.30M));
+            sut.AddProduct(new Product("Apple", 1.30M));
             sut.AddProduct(new Product("Beans", .80M));
             sut.Checkout();
 
