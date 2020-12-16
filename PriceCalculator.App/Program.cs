@@ -55,10 +55,5 @@ namespace PriceCalculator.App
                 Console.ReadLine();
             }
         }
-
-        public static string ToCurrencyString(decimal value)
-        {
-            return value < 1 ? $"{(int)(value * 100)}p" : $"{value:C}";
-        }
     }
 }
