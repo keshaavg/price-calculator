@@ -40,7 +40,7 @@ Clone [Repository](https://github.com/keshaavg/price-calculator.git) on local ma
 PriceCalculator Apple Milk Bread
 ```
 
-## Test Scenarios (Copied from exercise) 
+## Test Scenarios
 
 ### Scenario 1
 ```
