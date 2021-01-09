@@ -45,7 +45,7 @@ namespace PriceCalculator
                 {
                     if (item.Product.Name == ProductName)
                     {
-                        var discountFactor = Math.Min((int) Math.Ceiling((decimal)discountApplicable.Quantity / _quantityX), item.Quantity); 
+                        var discountFactor = Math.Min((discountApplicable.Quantity / _quantityX), item.Quantity); 
                         var amount = Math.Round((item.Product.UnitPrice * discountFactor) * _percentage, 2);
                         var dicountOutput = new DiscountOutput()
                         {

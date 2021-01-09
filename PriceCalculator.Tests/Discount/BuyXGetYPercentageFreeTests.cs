@@ -95,6 +95,7 @@ namespace PriceCalculator.Tests
         [InlineData(2, 6, 3, 0.5, 1.2)]
         [InlineData(3, 3, 1, 0.5, .4)]
         [InlineData(3, 6, 2, 0.5, .8)]
+        [InlineData(2, 5, 4, 0.5, .8)]
         public void AppliesDiscount_BuyXGetYPercentageFree(int x, int quantityX, int quantityY, decimal percentage, decimal expected )
         {
             // Arrange
